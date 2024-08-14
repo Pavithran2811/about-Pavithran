@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAVITHRAN VELMURUGAN - IMDb Style</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c; /* Dark background */
+            color: #e5e5e5; /* Light text color */
+        }
+
+        header {
+            background-color: #333; /* Dark gray */
+            padding: 20px;
+            color: #e5e5e5;
+            text-align: center;
+            border-bottom: 3px solid #ffcc00; /* IMDb yellow */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+        .infobox {
+            width: 300px;
+            background-color: #2e2e2e; /* Slightly lighter dark gray */
+            border: 1px solid #444; /* Border color */
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-right: 20px;
+        }
+
+        .infobox img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .infobox table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .infobox th, .infobox td {
+            padding: 8px;
+            border: 1px solid #444; /* Border color */
+        }
+
+        .infobox th {
+            background-color: #333; /* Dark gray */
+            color: #ffcc00; /* IMDb yellow */
+            text-align: left;
+        }
+
+        .infobox td {
+            background-color: #2e2e2e; /* Slightly lighter dark gray */
+        }
+
+        .content {
+            flex: 1;
+            background-color: #1c1c1c;
+            color: #e5e5e5;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .content h2 {
+            font-size: 28px;
+            color: #ffcc00; /* IMDb yellow */
+            border-bottom: 2px solid #ffcc00; /* IMDb yellow */
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .content h3 {
+            font-size: 20px;
+            color: #ffffff; /* White for subheadings */
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .content p, .content ul {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .content ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .content a {
+            color: #ffcc00; /* IMDb yellow */
+            text-decoration: none;
+        }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333; /* Dark gray */
+            color: #e5e5e5;
+            text-align: center;
+            padding: 10px;
+            border-top: 3px solid #ffcc00; /* IMDb yellow */
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Styling for images in the content section */
+        .content img {
+            max-width: 30%; /* Adjust percentage as needed */
+            height: auto;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PAVITHRAN VELMURUGAN</h1>
+</header>
+
+<div class="container">
+    <div class="infobox">
+        <img src="images/main image.jpg" alt="Pavithran Velmurugan">
+        <table>
+            <tr>
+                <th>Born</th>
+                <td>28/04/2003</td>
+            </tr>
+            <tr>
+                <th>Nationality</th>
+                <td>Indian</td>
+            </tr>
+            <tr>
+                <th>Occupation</th>
+                <td>Mainframe Developer</td>
+            </tr>
+            <tr>
+                <th>Experience</th>
+                <td>3 Months</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="content">
+        <h2>Education</h2>
+        <h3>Bachelors of Engineering</h3>
+        <ul>
+            <li><strong>Sri Sairam Engineering College</strong> - B.E (ECE) - 2020-2024</li>
+        </ul>
+
+        <img src="images/sairam1.jpg" alt="Sri Sairam Engineering College">
+        <img src="images/class.jpeg" alt="Sri Sairam Engineering College Building">
+
+        <h3>Senior Secondary</h3>
+        <ul>
+            <li><strong>SD Eaden Matric Higher Secondary School</strong> - 2019-2020</li>
+        </ul>
+
+        <img src="images/sdeaden.jpeg" alt="SD Eaden Matric Higher Secondary School">
+        <h3>Secondary</h3>
+        <ul>
+            <li><strong>St Paul Matric Higher Secondary School</strong> - 2019-2020</li>
+        </ul>
+
+        <h2>Work Experience</h2>
+        <ul>
+            <li><strong>Lbk Info Tech</strong> - COBOL Developer Intern
+                <p>Skills used: COBOL, DB2, HTML, CSS, PDL, SDLC documentation, Unix</p>
+                <p>Software tools used: Citrix, Any Desk, Soap UI, DBeaver, MS Office (Excel, Word)</p>
+                <p>Description: Developed and enhanced applications for the product called 'Ingenium'.
+                Responsibilities included developing code per requirements, performing unit testing,
+                deploying code with required documentation, and working on complex designs related to
+                billing and payment.</p>
+            </li>
+
+            <li><strong>Chennai Metro Rail Limited</strong> - AFC Lab Engineer</li>
+            <p>Worked on testing and troubleshooting the Automatic Fare Collection (AFC) systems, ensuring seamless operation of fare gates and ticketing machines.
+            Responsible for configuring hardware and software, managing data analysis, and generating reports.
+            Collaborated with vendors and maintained detailed documentation to support system integration and compliance with quality standards.</p>
+        </ul>
+
+        <img src="images/cmrl.jpeg">
+        <img src="images/cmrl1.jpeg">
+
+        <h2>Awards and Nominations</h2>
+        <ul>
+            <li><strong>NSS Best Unit Award</strong> - Year</li>
+        </ul>
+
+        <img src="images/unit award.jpeg" alt="NSS Best Unit Award">
+
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Programming Languages : COBOL ,JCL ,Java ,C </strong></li>
+            <li><strong>Web Designing : HTML ,CSS,JSP</strong></li>
+            <li><strong>Data Base : SQL ,IBM DB2</strong></li>
+            <li><strong> Operating System: Linux</strong></li>
+        </ul>
+
+        <h2>Certifications</h2>
+        <ul>
+            <li><strong>Red Hat Certified System Administrator(Linux) - Certification ID 230-027-641</strong></li>
+            <img src="images/redhat.jpeg">
+            <li><strong>COBOL Programming - IBM , Rocket software.</strong></li>
+            <li><strong>Introduction to API and RESTful API - Great Learning. </strong></li>
+            <li><strong>Java servlet Basics and JSP course -Simplilearn.</strong></li>
+        </ul>
+
+        <h2>Soft Skills</h2>
+        <ul>
+            <li><strong>NSS Student Coordinator</strong> - 2021-2024</li>
+            <p>Leadership</p>
+            <p>Communication</p>
+            <p>Teamwork</p>
+            <p>Problem-Solving</p>
+        </ul>
+
+        <img src="images/Nss Coordinator1.jpeg">
+        <img src="images/Nss Coordinator2.jpeg">
+        <img src="images/Nss Coordinator3.jpeg">
+
+
+        <h2>External Links</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/pavithran-v-061a75207" target="_blank">LinkedIn Link</a></li>
+            <li><a href="https://www.instagram.com/pavithran__v?igsh=MWtveGh5bnRtMGhmaw==" target="_blank">Instagram Profile</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    Phone number : 6383734129  Email - Pavithranpavi796@gmail.com
+</footer>
+
+</body>
+</html>
